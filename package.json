@@ -5,7 +5,7 @@
   "author": "",
   "license": "",
   "repository": "https://github.com/squint-cljs/vite-plugin-squint",
-  "type":"module",
+  "type": "module",
   "main": "index.mjs",
   "files": [],
   "scripts": {},
@@ -13,10 +13,17 @@
     "vite": ">2.0.0-0"
   },
   "dependencies": {
-    "squint-cljs": "^0.7.100"
   },
   "devDependencies": {
-    "vite": "latest"
+    "vite": "latest",
+    "@ceramicnetwork/http-client": "^5.14.0",
+    "@composedb/devtools": "^0.7.1",
+    "@composedb/devtools-node": "^0.7.1",
+    "did-session": "^3.1.0",
+    "dotenv": "^16.4.5",
+    "key-did-provider-ed25519": "^4.0.2",
+    "key-did-resolver": "^4.0.0",
+    "squint-cljs": "^0.7.111"
   },
   "keywords": [
     "vite",
