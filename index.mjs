@@ -79,7 +79,7 @@ export default function viteSquint(opts = {}) {
 
         // }
             const resolveId = file + ".jsx";
-        console.log("resolveId ", resolveId);
+        // console.log("resolveId ", resolveId);
 
             const module = server.moduleGraph.getModuleById(resolveId);
         if (module) {
